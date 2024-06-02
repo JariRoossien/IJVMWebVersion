@@ -1,0 +1,25 @@
+.input-output-container {
+  display: flex;
+  width: 100%;
+}
+
+.input-output-container > div {
+  width: 100%;
+  padding: 20px;
+}
+
+.input-output-container > div > textarea {
+  resize: none;
+  width: 100%;
+}
+
+.header {
+  margin: 0;
+  padding: 30px;
+  color: aliceblue;
+  background: #01355d;
+}
+
+.header > h1, p {
+  margin: 10px 0;
+}

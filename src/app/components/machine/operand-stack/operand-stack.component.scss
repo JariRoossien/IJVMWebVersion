@@ -1,0 +1,19 @@
+tr {
+  display: none;
+}
+
+tr:has(td) {
+  display: block;
+}
+
+.local_var {
+  background: #eac2e5;
+}
+
+.stack_val {
+  background: #c5f6e6;
+}
+
+.arg_val {
+  background: #ffbe64;
+}

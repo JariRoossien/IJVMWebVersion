@@ -1,0 +1,14 @@
+<div class="operandStack">
+  <table>
+    <tbody>
+
+    <tr *ngFor="let value of this.ijvmService.ijvmMachine.operandStack; index as i" class="operand-row" [className]="getClassFor(i)" >
+      <ng-container *ngIf="value !== undefined">
+        <td>{{i + 1}}</td>
+        <td>{{value}}</td>
+      </ng-container>
+    </tr>
+    </tbody>
+
+  </table>
+</div>
